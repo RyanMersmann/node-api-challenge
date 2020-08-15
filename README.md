@@ -35,10 +35,10 @@ Follow these steps to set up and work on your project:
 
 Follow these steps for completing your project.
 
--   [ ] Submit a Pull-Request to merge `firstName-lastName` Branch into `main` on **your fork, don't make Pull Requests against Lambda's repository**.
--   [ ] Please don't merge your own pull request.
--   [ ] Add your _Team Lead_ as a Reviewer on the Pull-request
--   [ ] Your _Team Lead_ will count the challenge as done by merging the branch into `main`.
+-   [done] Submit a Pull-Request to merge `firstName-lastName` Branch into `main` on **your fork, don't make Pull Requests against Lambda's repository**.
+-   [okay] Please don't merge your own pull request.
+-   [done] Add your _Team Lead_ as a Reviewer on the Pull-request
+-   [done] Your _Team Lead_ will count the challenge as done by merging the branch into `main`.
 
 ## Commits
 
@@ -48,15 +48,15 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
--   [ ] Mention two parts of Express that you learned about this week.
+-   [ ] Mention two parts of Express that you learned about this week. Middleware, routing
 
--   [ ] Describe Middleware?
+-   [ ] Describe Middleware? A set of functions that run in the order they are found/used in the server files. they can execute code, change req and res objects, end the req-res cycle, start the next middleware function (including the routing).
 
--   [ ] Describe a Resource?
+-   [ ] Describe a Resource? any piece of data the API uses or accesses
 
--   [ ] What can the API return to help clients know if a request was successful?
+-   [ ] What can the API return to help clients know if a request was successful? a status code in the 200 range. A message can also be returned with the code
 
--   [ ] How can we partition our application into sub-applications?
+-   [ ] How can we partition our application into sub-applications? seperating each major endpoint (users, products, posts, etc) into their own file that is called by the server or index.js file depending on your structure.
 
 ## Minimum Viable Product
 
