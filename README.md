@@ -1,6 +1,6 @@
 # Sprint Challenge: Express and Node.js - Projects & Actions
 
-## Note: Added Testing .json file to the repo "Insomnia_testing_node_api_challenge.json"
+## Note: Added Testing .json file to the repo "/testing/Insomnia_testing_node_api_challenge.json"
 
 ## Interview Questions
 
