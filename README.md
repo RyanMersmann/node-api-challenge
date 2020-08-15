@@ -60,8 +60,10 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 ## Minimum Viable Product
 
--   [ ] Configure an _npm script_ named _"server"_ that will execute your code using _nodemon_. Make _nodemon_ be a development time dependency only, it shouldn't be deployed to production.
--   [ ] Configure an _npm script_ named _"start"_ that will execute your code using _node_.
+-   [done] Configure an _npm script_ named _"server"_ that will execute your code using _nodemon_. Make _nodemon_ be a development time dependency only, it shouldn't be deployed to production.
+-   [done] Configure an _npm script_ named _"start"_ that will execute your code using _node_.
+
+-   [done] EXTRA added an _npm script_ name "watch" that restarts the server every time a change is made
 
 Design and build the necessary endpoints to:
 
