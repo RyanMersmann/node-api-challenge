@@ -1,5 +1,15 @@
 # Sprint Challenge: Express and Node.js - Projects & Actions
 
+## Interview Questions
+
+Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
+
+1. The core features of Node.js and Express and why they are useful. - Node is an environment that allows devs to create server side tool and apps in JS. Express is a node web framework and can write handlers for requests with different HTTP parths, sets port to use for connecting, adds additional request middleware.
+2. Understand and explain the use of Middleware? Middleware is a software that add different capabilities to apps outside of what is offered by the environment. Examples are data management, authentication and API management.
+3. The basic principles of the REST architectural style. The rest architecture uses rest request handlers to pass info via json response to the client. The client sends a request via get, put, post, delete for example back to the request handler. That is then passed to the service handler and then the database and then to the server. 
+4. Understand and explain the use of Express Routers. Express can route specific functions, files to specific endpoints for a client HTTP requests.
+5. Describe tooling used to manually test the correctness of an API. Insomnia is a tool that is used to send requests to the API since we have no front end to test with during the construction of the API. you can send requests a get, post, put, del, etc to send json info to the sever.
+
 ## Description
 
 In this challenge, you design and create a web API to manage the following resources: `Projects` and `Actions`.
@@ -16,12 +26,12 @@ The Minimum Viable Product must be completed in three hours.
 
 Follow these steps to set up and work on your project:
 
--   [ ] Create a forked copy of this project.
--   [ ] Add your _Team Lead_ as collaborator on Github.
--   [ ] Clone your forked version of the Repository.
--   [ ] Create a new Branch on the clone: git checkout -b `firstName-lastName`.
--   [ ] Implement the project on this Branch, committing changes regularly.
--   [ ] Push commits: git push origin `firstName-lastName`.
+-   [done] Create a forked copy of this project.
+-   [done] Add your _Team Lead_ as collaborator on Github.
+-   [done] Clone your forked version of the Repository.
+-   [done] Create a new Branch on the clone: git checkout -b `firstName-lastName`.
+-   [done] Implement the project on this Branch, committing changes regularly.
+-   [done] Push commits: git push origin `firstName-lastName`.
 
 Follow these steps for completing your project.
 
