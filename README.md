@@ -1,5 +1,7 @@
 # Sprint Challenge: Express and Node.js - Projects & Actions
 
+## Note: Added Testing .json file to the repo "Insomnia_testing_node_api_challenge.json"
+
 ## Interview Questions
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
